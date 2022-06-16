@@ -138,6 +138,8 @@ avks::usage="avks \!\(\*SubsuperscriptBox[\(f\), \(1  T\), \(\[UpTee]\)]\) (Sive
 ?avks;
 avph::usage="avph \!\(\*SubsuperscriptBox[\(H\), \(1\), \(\[UpTee]\)]\) (Collins fragmentation function) TMD width";
 ?avph;
+?avkBM;
+avkBM::usage="avkBM Boer-Mulders \!\(\*SubsuperscriptBox[\(h\), \(1\), \(\[UpTee]\)]\)TMD width";
 Begin["`Private`"];
 DSShplus= ReadList["./Grids/fragmentationpiplus.dat",Real,RecordLists-> True];
 DSShminus= ReadList["./Grids/fragmentationpiminus.dat",Real,RecordLists-> True];
